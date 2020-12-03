@@ -1,0 +1,26 @@
+Maze 1: 50 Runs, Exponentially Decaying
+> print(SARSATime / nb_runs) 
+Time difference of 0.0853758 mins
+> print(QLearningTime / nb_runs)
+Time difference of 0.07472465 mins
+> print(nStepTime / nb_runs)
+Time difference of 0.0941211 mins
+
+Maze 2: 50 Runs, Exponentially Decaying
+> print(SARSATime / nb_runs) 
+Time difference of 0.3753758 mins
+> print(QLearningTime / nb_runs)
+Time difference of 0.27472465 mins
+> print(nStepTime / nb_runs)
+Time difference of 0.3541211 mins
+
+
+Different Epsilon
+> print(overNRunTime / nb_runs) 
+Time difference of 0.189326 mins
+> print(overLogNRunTime / nb_runs)
+Time difference of 0.08744081 mins
+> print(exponentialRunTime / nb_runs)
+Time difference of 0.07277462 mins
+> print(constantRunTime / nb_runs)
+Time difference of 0.1086492 mins
